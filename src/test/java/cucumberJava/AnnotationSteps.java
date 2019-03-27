@@ -33,7 +33,7 @@ public void i_search_for_floorball_France() throws Throwable {
     driver.findElement(By.xpath("//form[@id='tsf']/div[2]/div/div[3]/center/input[1]")).submit();
 }
 
-@When("^I click on the french floorball federation website$")
+@When("^I click on the French floorball federation website$")
 public void i_click_on_the_french_floorball_federation_website() throws Throwable {
     driver.findElement(By.xpath("//div/a[contains(@href,'www.floorball.fr')]/h3")).click();
 }
