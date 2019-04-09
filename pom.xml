@@ -56,7 +56,7 @@
 			  </dependencies>
             <configuration>
                 <featuresList>${ta.feature}</featuresList>
-                <squashRoot>/src/test/resources/cucumberJava/</squashRoot>
+                <squashRoot>squash</squashRoot>
                 <!-- DryRunOptions for dryrun goal only -->
                 <additionnalDryRunChecks>true</additionnalDryRunChecks>
 
